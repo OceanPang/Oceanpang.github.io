@@ -1,2 +1,1 @@
-mogrify -path tn/images -thumbnail 160x160 images/*.png
-mogrify -path tn/images -thumbnail 160x160 images/*.jpg
+mogrify -path $1 -thumbnail 160x160 $2
