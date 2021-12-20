@@ -16,5 +16,5 @@ code: https://github.com/open-mmlab/mmdetection/tree/master/configs/htc
 # slide: pubs/2021.FCOS3D/FCOS3D.pdf
 zhihu: https://zhuanlan.zhihu.com/p/57629509
 bibtex: pubs/2019.HTC/bibtex.txt
-# highlight: Oral Presentation
+highlight: Winning entry at COCO Object Detection Challenge, ECCV 2018
 ---
