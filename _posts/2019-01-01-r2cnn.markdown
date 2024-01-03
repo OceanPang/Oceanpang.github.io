@@ -16,5 +16,5 @@ paper: https://ieeexplore.ieee.org/document/8672899
 # slide: pubs/2021.FCOS3D/FCOS3D.pdf
 # zhihu: https://zhuanlan.zhihu.com/p/400191167
 bibtex: pubs/2019.R2CNN/bibtex.txt
-# highlight: Oral Presentation
+highlight: ESI Highly Cited Paper
 ---
