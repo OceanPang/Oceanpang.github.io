@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PointLLM: Empowering Large Language Models to Understand Point Clouds"
-date:   2024-01-01 00:00:29 +00:00
+date:   2024-01-01 00:08:00 +00:00
 image: pubs/2024.PointLLM/teaser.png
 categories: research
 # author: ""
