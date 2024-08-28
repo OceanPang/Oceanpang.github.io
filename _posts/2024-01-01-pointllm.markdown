@@ -6,7 +6,7 @@ image: pubs/2024.PointLLM/teaser.png
 categories: research
 # author: ""
 authors: "<u>Runsen Xu</u>, Xiaolong Wang, <u>Tai Wang</u>, <u>Yilun Chen</u>, <strong>Jiangmiao Pang</strong><sup>&dagger;</sup>, Dahua Lin"
-venue: "In Submission"
+venue: "European Conference on Computer Vision (ECCV), 2024"
 page: https://runsenxu.com/projects/PointLLM/
 arxiv: https://arxiv.org/abs/2308.16911
 # paper: 
@@ -16,4 +16,5 @@ code: https://github.com/OpenRobotLab/PointLLM
 # slide:
 # zhihu: https://zhuanlan.zhihu.com/p/428280551
 bibtex: pubs/2024.PointLLM/bibtex.txt
+highlight: Oral Presentation with all Strong Accept recommendations
 ---

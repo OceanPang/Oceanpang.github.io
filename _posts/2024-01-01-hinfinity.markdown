@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Learning H-Infinity Locomotion Control"
-date:   2024-01-01 00:10:00 +00:00
+date:   2024-01-01 00:20:00 +00:00
 image: pubs/2024.H-Infinity/teaser.gif
 categories: research
 # author: ""
-authors: "<u>Junfeng Long</u>*, <u>Wenye Yu</u>*, <u>Quanyi Li</u>, <u>Zirui Wang</u>, Dahua Lin, <strong>Jiangmiao Pang</strong><sup>&dagger;</sup>"
+authors: "Junfeng Long*, Wenye Yu*, Quanyi Li, Zirui Wang, Dahua Lin, <strong>Jiangmiao Pang</strong><sup>&dagger;</sup>"
 venue: "In Submission"
 page: https://junfeng-long.github.io/HINF/
 arxiv: https://arxiv.org/abs/2404.14405
