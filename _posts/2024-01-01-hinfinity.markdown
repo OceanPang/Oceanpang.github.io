@@ -6,7 +6,7 @@ image: pubs/2024.H-Infinity/teaser.gif
 categories: research
 # author: ""
 authors: "Junfeng Long*, Wenye Yu*, Quanyi Li, Zirui Wang, Dahua Lin, <strong>Jiangmiao Pang</strong><sup>&dagger;</sup>"
-venue: "In Submission"
+venue: "Conference on Robot Learning (CoRL)"
 page: https://junfeng-long.github.io/HINF/
 arxiv: https://arxiv.org/abs/2404.14405
 # paper: 

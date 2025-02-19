@@ -16,5 +16,5 @@ code: https://github.com/OpenRobotLab/PointLLM
 # slide:
 # zhihu: https://zhuanlan.zhihu.com/p/428280551
 bibtex: pubs/2024.PointLLM/bibtex.txt
-highlight: Oral Presentation with all Strong Accept recommendations
+highlight: Best Paper Candidate
 ---
