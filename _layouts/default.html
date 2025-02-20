@@ -162,6 +162,90 @@
         </table>
         <table
           style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          
+          {% comment %} 初始化类别列表 {% endcomment %}
+          {% assign categories = "Humanoids and Motion Intelligence,Manipulation and Navigation Intelligence,Simulation/Hardware Platforms for Embodied AI,AIGC for Embodied AI,3D Vision and Embodied Perception" | split: "," %}
+          
+          {% comment %} 初始化每个类别对应的空数组，模拟字典的键值对 {% endcomment %}
+          {% for category in categories %}
+              {% assign category = category | strip %}
+              {% assign category | append: "_posts" = [] %}
+          {% endfor %}
+          
+          {% comment %} 遍历文章并分类到不同类别数组中 {% endcomment %}
+          {% for post in site.posts %}
+              {% for category in categories %}
+                  {% assign category = category | strip %}
+                  {% if post.sub_fields == category %}
+                      {% assign temp_array = category | append: "_posts" %}
+                      {% assign temp_array = temp_array | push: post %}
+                      {% assign category | append: "_posts" = temp_array %}
+                  {% endif %}
+              {% endfor %}
+          {% endfor %}
+          
+          {% comment %} 循环遍历类别列表，创建 section 并展示文章 {% endcomment %}
+          {% for category in categories %}
+              {% assign category = category | strip %}
+              <section id="{{ category | slugify }}">
+                  <h2>{{ category }}</h2>
+                  {% assign post_list = category | append: "_posts" %}
+                  {% for post in post_list %}
+                      <tr>
+                          <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                              <img src="/{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+                          </td>
+                          <td style="padding:0%;width:75%;vertical-align:middle">
+                              <h3>{{post.title}}</h3>
+                              <br>
+                              {{post.authors}}
+                              <br>
+                              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+                              {% if post.highlight %}
+                                  <br>
+                                  <font style="color:red">{{post.highlight}}</font>
+                              {% endif %}
+                              <br>
+                              {% if post.page %}
+                                  <a href="{{post.page}}">project page</a> /
+                              {% endif %}
+                              {% if post.arxiv %}
+                                  <a href="{{post.arxiv}}">arXiv</a> /
+                              {% endif %}
+                              {% if post.paper %}
+                                  <a href="{{post.paper}}">paper</a> /
+                              {% endif %}
+                              {% if post.code %}
+                                  <a href="{{post.code}}">code</a> /
+                              {% endif %}
+                              {% if post.poster %}
+                                  <a href="{{post.poster}}">poster</a> /
+                              {% endif %}
+                              {% if post.video %}
+                                  <a href="{{post.video}}">video</a> /
+                              {% endif %}
+                              {% if post.slide %}
+                                  <a href="{{post.slide}}">slide</a> /
+                              {% endif %}
+                              {% if post.zhihu %}
+                                  <a href="{{post.zhihu}}">Zhihu</a> /
+                              {% endif %}
+                              {% if post.bibtex %}
+                                  <a href="{{post.bibtex}}">bibtex</a>
+                              {% endif %}
+                              <p></p>
+                              {{ post.excerpt }}
+                          </td>
+                      </tr>
+                  {% endfor %}
+              </section>
+          {% endfor %}
+<!--       
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h3>Humanoids and Motion Intelligence</h3>
+            </td>
+          </tr>
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
@@ -215,7 +299,9 @@
           </tr>
           {% endif %}
           {% endfor %}
-          {% endfor %}
+          {% endfor %} -->
+
+
         </table>
 
         <table

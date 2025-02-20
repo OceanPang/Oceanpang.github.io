@@ -4,6 +4,7 @@ title:  "PointLLM: Empowering Large Language Models to Understand Point Clouds"
 date:   2024-01-01 00:08:00 +00:00
 image: pubs/2024.PointLLM/teaser.png
 categories: research
+sub_fields: "3D Vision and Embodied Perception"
 # author: ""
 authors: "<u>Runsen Xu</u>, Xiaolong Wang, <u>Tai Wang</u>, <u>Yilun Chen</u>, <strong>Jiangmiao Pang</strong><sup>&dagger;</sup>, Dahua Lin"
 venue: "European Conference on Computer Vision (ECCV), 2024"

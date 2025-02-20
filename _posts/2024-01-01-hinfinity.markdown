@@ -4,6 +4,7 @@ title:  "Learning H-Infinity Locomotion Control"
 date:   2024-01-01 00:20:00 +00:00
 image: pubs/2024.H-Infinity/teaser.gif
 categories: research
+sub_fields: "Humanoids and Motion Intelligence"
 # author: ""
 authors: "Junfeng Long*, Wenye Yu*, Quanyi Li, Zirui Wang, Dahua Lin, <strong>Jiangmiao Pang</strong><sup>&dagger;</sup>"
 venue: "Conference on Robot Learning (CoRL)"
