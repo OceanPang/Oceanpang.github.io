@@ -4,6 +4,8 @@ title:  "Quasi-Dense Similarity Learning for Multiple Object Tracking"
 date:   2021-01-01 00:00:26 +00:00
 image: pubs/2021.QDTrack/qdtrack.png
 categories: research
+sub_fields: "Pioneering Research on Embodied AI"
+
 # author: ""
 authors: "<strong>Jiangmiao Pang</strong>, Linlu Qiu, Xia Li, Haofeng Chen, Qi Li, Trevor Darrell, Fisher Yu"
 venue: "Computer Vision and Pattern Recognition (CVPR)"

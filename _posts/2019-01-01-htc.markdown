@@ -4,6 +4,7 @@ title:  "Hybrid Task Cascade for Instance Segmentation"
 date:   2019-01-01 00:00:18 +00:00
 image: pubs/2019.HTC/htc.png
 categories: research
+sub_fields: "Pioneering Research on Embodied AI"
 # author: ""
 authors: "Kai Chen, <strong>Jiangmiao Pang</strong>, Jiaqi Wang, Yu Xiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng, Jianping Shi, Wanli Ouyang, Chen Change Loy, Dahua Lin"
 venue: "Computer Vision and Pattern Recognition (CVPR)"

@@ -4,6 +4,8 @@ title:  "K-Net: Towards Unified Image Segmentation"
 date:   2021-01-01 00:00:29 +00:00
 image: pubs/2021.K-Net/knet.png
 categories: research
+sub_fields: "Pioneering Research on Embodied AI"
+
 # author: ""
 authors: "<u>Wenwei Zhang</u>, <strong>Jiangmiao Pang</strong>, Kai Chen, Chen Change Loy"
 venue: "Neural Information Processing Systems (NeurIPS)"

@@ -4,6 +4,8 @@ title:  "DORT: Modeling Dynamic Objects in Recurrent for Multi-Camera 3D Object 
 date:   2023-01-03 00:00:29 +00:00
 image: pubs/2023.DORT/teaser.png
 categories: research
+sub_fields: "Pioneering Research on Embodied AI"
+
 # author: ""
 authors: "<u>Qing Lian</u>, <u>Tai Wang</u>, Dahua Lin, <strong>Jiangmiao Pang</strong><sup>&dagger;</sup>"
 venue: "Conference on Robot Learning (CoRL)"
