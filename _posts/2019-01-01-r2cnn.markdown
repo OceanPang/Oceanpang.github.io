@@ -4,8 +4,7 @@ title:  "R<sup>2</sup>-CNN: Fast Tiny Object Detection in Large-scale Remote Sen
 date:   2019-01-01 00:00:12 +00:00
 image: pubs/2019.R2CNN/r2cnn.png
 categories: research
-sub_fields: "Pioneering Research on Embodied AI"
-
+sub_fields: "Others"
 # author: ""
 authors: "<strong>Jiangmiao Pang</strong>, Cong Li, Jianping Shi, Zhihai Xu, Huajun Feng"
 venue: "IEEE Transactions on Geoscience and Remote Sensing (TGRS)"

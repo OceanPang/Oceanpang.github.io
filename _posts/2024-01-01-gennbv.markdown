@@ -10,4 +10,5 @@ page: https://gennbv.tech/
 arxiv: https://arxiv.org/abs/2402.16174v1
 # code: https://github.com/OpenRobotLab/EmbodiedScan
 bibtex: pubs/2024.GenNBV/bibtex.txt
+sub_fields: "3D Vision and Embodied Perception"
 ---

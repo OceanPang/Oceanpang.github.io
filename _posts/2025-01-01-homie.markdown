@@ -17,4 +17,5 @@ arxiv: https://arxiv.org/abs/2502.13013
 # zhihu: https://zhuanlan.zhihu.com/p/428280551
 bibtex: pubs/2025.Homie/bibtex.txt
 # Highlight: Use 1 hour to train a quadruped robot capable of traversing any terrain under any disturbances in the open world.
+sub_fields: "Humanoids and Motion Intelligence"
 ---

@@ -4,8 +4,7 @@ title:  "FCOS3D: Fully Convolutional One-Stage Monocular 3D Object Detection"
 date:   2021-01-01 00:00:28 +00:00
 image: pubs/2021.FCOS3D/fcos3d.png
 categories: research
-sub_fields: "Pioneering Research on Embodied AI"
-
+sub_fields: "3D Vision and Embodied Perception"
 # author: ""
 authors: "<u>Tai Wang</u>, Xinge Zhu, <strong>Jiangmiao Pang</strong>, Dahua Lin"
 venue: "International Conference on Computer Vision Workshops (ICCVW)"

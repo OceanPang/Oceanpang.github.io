@@ -4,8 +4,7 @@ title:  "Libra R-CNN: Towards Balanced Learning for Object Detection"
 date:   2019-01-01 00:00:20 +00:00
 image: pubs/2021.LibraRCNN/cvpr.png
 categories: research
-sub_fields: "Pioneering Research on Embodied AI"
-
+sub_fields: "Others"
 # author: ""
 authors: "<strong>Jiangmiao Pang</strong>, Kai Chen, Qi Li, Zhihai Xu, Huajun Feng, Jianping Shi, Wanli Ouyang, Dahua Lin"
 venue: "Computer Vision and Pattern Recognition (CVPR)"

@@ -17,4 +17,5 @@ code: https://github.com/noahcao/OC_SORT
 # zhihu: https://zhuanlan.zhihu.com/p/428280551
 bibtex: pubs/2023.OC-SORT/bibtex.txt
 highlight: Most Influential CVPR Papers
+sub_fields: "Others"
 ---

@@ -17,4 +17,5 @@ code: https://github.com/OpenRobotLab/OV_PARTS
 # zhihu: https://zhuanlan.zhihu.com/p/428280551
 bibtex: pubs/2023.OV-PARTS/bibtex.txt
 # highlight: Most Influential CVPR Papers
+sub_fields: "Others"
 ---
