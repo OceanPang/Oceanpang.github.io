@@ -6,7 +6,7 @@ image: pubs/2024.CooHOI/teaser.png
 categories: research
 sub_fields: "Humanoids and Motion Intelligence"
 # author: ""
-authors: "Jiawei Gao*, Ziqin Wang*, Zeqi Xiao, Jingbo Wang, Tai Wang, Jinkun Cao, Xiaolin Hu, Si Liu<sup>&dagger;</sup>, Jifeng Dai<sup>&dagger;</sup>, <strong>Jiangmiao Pang</strong><sup>&dagger;</sup>"
+authors: "Jiawei Gao*, Ziqin Wang*, Zeqi Xiao, Jingbo Wang, Tai Wang, Jinkun Cao, Xiaolin Hu, Si Liu, Jifeng Dai, <strong>Jiangmiao Pang</strong>"
 venue: "Neural Information Processing Systems (NeurIPS)"
 # page: https://junfeng-long.github.io/HINF/
 arxiv: https://arxiv.org/abs/2406.14558

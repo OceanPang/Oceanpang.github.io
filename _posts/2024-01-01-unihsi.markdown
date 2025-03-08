@@ -6,7 +6,7 @@ image: pubs/2024.UniHSI/unihsi.gif
 categories: research
 sub_fields: "Humanoids and Motion Intelligence"
 # author: ""
-authors: "<u>Zeqi Xiao</u>, <u>Tai Wang</u>, Jingbo Wang, <u>Jinkun Cao</u>, Wenwei Zhang, Bo Dai, Dahua Lin, <strong>Jiangmiao Pang</strong><sup>&dagger;</sup>"
+authors: "<u>Zeqi Xiao</u>, <u>Tai Wang</u>, Jingbo Wang, <u>Jinkun Cao</u>, Wenwei Zhang, Bo Dai, Dahua Lin, <strong>Jiangmiao Pang</strong>"
 venue: "International Conference on Learning Representations (ICLR)"
 page: https://xizaoqu.github.io/unihsi/
 arxiv: https://arxiv.org/abs/2309.07918

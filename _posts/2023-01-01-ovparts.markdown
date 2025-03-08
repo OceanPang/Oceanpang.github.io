@@ -5,7 +5,7 @@ date:   2023-01-02 00:00:29 +00:00
 image: pubs/2023.OV-PARTS/teaser.png
 categories: research
 # author: ""
-authors: "<u>Meng Wei</u>, Xiaoyu Yue, Wenwei Zhang, Shu Kong, Xihui Liu, <strong>Jiangmiao Pang</strong><sup>&dagger;</sup>"
+authors: "Meng Wei, Xiaoyu Yue, Wenwei Zhang, Shu Kong, Xihui Liu, <strong>Jiangmiao Pang</strong>"
 venue: "Neural Information Processing Systems Datasets and Benchmarks Track"
 # page: https://xizaoqu.github.io/unihsi/
 arxiv: https://arxiv.org/abs/2310.05107

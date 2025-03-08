@@ -6,7 +6,7 @@ image: pubs/2024.MMScan/teaser.png
 categories: research
 sub_fields: "3D Vision and Embodied Perception"
 # author: ""
-authors: "Ruiyuan Lyu*, Tai Wang*, Jingli Lin*, Shuai Yang*, Xiaohan Mao, Yilun Chen, Runsen Xu, Haifeng Huang, Chenming Zhu, Dahua Lin, <strong>Jiangmiao Pang</strong><sup>&dagger;</sup>"
+authors: "Ruiyuan Lyu*, Tai Wang*, Jingli Lin*, Shuai Yang*, Xiaohan Mao, Yilun Chen, Runsen Xu, Haifeng Huang, Chenming Zhu, Dahua Lin, <strong>Jiangmiao Pang</strong>"
 venue: "Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track"
 page: https://tai-wang.github.io/mmscan/
 arxiv: https://arxiv.org/abs/2406.09401
