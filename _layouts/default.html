@@ -137,7 +137,7 @@
                   </font>
                 </li>
                 <li>
-                  [2025/04] Check out <a href="https://arxiv.org/abs/2503.13424">Infinite Mobility</a> that
+                  [2025/04] Check out <a href="https://infinite-mobility.github.io/">Infinite Mobility</a> that
                   generates interactive objects and <a href="https://aether-world.github.io/">Aether</a>, our
                   embodied 4D world model.
                 </li>
@@ -216,7 +216,7 @@
                 contribution.
               </p> -->
               <!-- Value: init categories_list with a long string -->
-              {% assign categories_list = "All Selected Publications,Simulation/Hardware Systems for Embodied AI,Humanoids and Motion Intelligence,Manipulation and Navigation Intelligence,3D Vision and Embodied Perception,Others" | split: "," %}
+              {% assign categories_list = "All Selected Publications,Simulation/Hardware Systems for Embodied AI,Humanoids and Motion Intelligence,Manipulation and Navigation Intelligence,AIGC for Embodied AI,3D Vision and Embodied Perception" | split: "," %}
 
               <table style="
                     width: 100%;
@@ -246,13 +246,16 @@
                 </tr>
                 <tr>
                   <td style="text-align: left">
-                    <a href="#" onclick="event.preventDefault();showTable('{{categories_list[4]}}')" class="nav-link">3D
-                      Vision and Embodied Perception</a>
+                    <a href="#" onclick="event.preventDefault();showTable('{{categories_list[4]}}')" class="nav-link">AIGC for Embodied AI</a>
                   </td>
                   <td style="text-align: left">
+                    <a href="#" onclick="event.preventDefault();showTable('{{categories_list[5]}}')" class="nav-link">3D
+                      Vision and Embodied Perception</a>
+                  </td>
+                  <!-- <td style="text-align: left">
                     <a href="#" onclick="event.preventDefault();showTable('{{categories_list[5]}}')"
                       class="nav-link">Others</a>
-                  </td>
+                  </td> -->
                 </tr>
               </table>
             </td>
@@ -294,17 +297,8 @@
                 <br />
                 {% if post.page %}
                 <a href="{{post.page}}">project page</a> / {% endif %} {% if
-                post.arxiv %} <a href="{{post.arxiv}}">arXiv</a> / {% endif %}
-                {% if post.paper %} <a href="{{post.paper}}">paper</a> / {%
-                endif %} {% if post.code %} <a href="{{post.code}}">code</a> /
-                {% endif %} {% if post.poster %}
-                <a href="{{post.poster}}">poster</a> / {% endif %} {% if
-                post.video %} <a href="{{post.video}}">video</a> / {% endif %}
-                {% if post.slide %} <a href="{{post.slide}}">slide</a> / {%
-                endif %} {% if post.zhihu %}
-                <a href="{{post.zhihu}}">Zhihu</a> / {% endif %} {% if
-                post.bibtex %}
-                <a href="{{post.bibtex}}">bibtex</a>
+                post.arxiv %} <a href="{{post.arxiv}}">arXiv</a> {% endif %}
+                {% if post.code %} / <a href="{{post.code}}"> code</a>
                 {% endif %}
                 <p></p>
                 {{ post.excerpt }}

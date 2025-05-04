@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit"
-date:   2025-01-07 00:20:00 +00:00
-image: pubs/2025.Homie/teaser.png
+title:  "Novel Demonstration Generation with Gaussian Splatting Enables Robust One-Shot Manipulation"
+date:   2025-01-07 00:26:00 +00:00
+image: pubs/2025.RoboSplat/teaser.png
 categories: research
 # author: ""
-authors: "Qingwei Ben*, Feiyu Jia*, Jia Zeng, Junting Dong, Dahua Lin, <strong>Jiangmiao Pang</strong>"
+authors: "Sizhe Yang*, Wenye Yu*, Jia Zeng, Jun Lv, Kerui Ren, Cewu Lu, Dahua Lin <strong>Jiangmiao Pang</strong>"
 venue: "Robotics: Science and Systems (RSS)"
-page: https://homietele.github.io/
-arxiv: https://arxiv.org/abs/2502.13013
+page: https://yangsizhe.github.io/robosplat/
+arxiv: https://arxiv.org/abs/2504.13175
 # paper: 
 # code: https://github.com/OpenRobotLab/HIMLoco
 # poster: pubs/2021.K-Net/poster.jpeg
@@ -17,6 +17,6 @@ arxiv: https://arxiv.org/abs/2502.13013
 # zhihu: https://zhuanlan.zhihu.com/p/428280551
 # bibtex: pubs/2025.Homie/bibtex.txt
 # Highlight: Use 1 hour to train a quadruped robot capable of traversing any terrain under any disturbances in the open world.
-sub_fields: "Humanoids and Motion Intelligence"
-sub_fields2: "Simulation/Hardware Systems for Embodied AI"
+sub_fields: "Manipulation and Navigation Intelligence"
+sub_fields2: "AIGC for Embodied AI"
 ---

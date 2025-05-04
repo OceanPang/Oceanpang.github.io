@@ -1,6 +1,6 @@
-@inproceedings{chen2019hybrid,
-  title={Hybrid task cascade for instance segmentation},
-  author={Chen, Kai and Pang, Jiangmiao and Wang, Jiaqi and Xiong, Yu and Li, Xiaoxiao and Sun, Shuyang and Feng, Wansen and Liu, Ziwei and Shi, Jianping and Ouyang, Wanli and Chen Change Loy and Dahua Lin},
-  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2019}
-}
+@article{yang2025gripper,
+  title={Gripper Keypose and Object Pointflow as Interfaces for Bimanual Robotic Manipulation},
+  author={Yang, Yuyin and Cai, Zetao and Tian, Yang and Zeng, Jia and Pang, Jiangmiao},
+  journal={arXiv preprint arXiv:2504.17784},
+  year={2025}
+}    
