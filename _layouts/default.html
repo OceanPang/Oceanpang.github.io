@@ -216,9 +216,7 @@
                 contribution.
               </p> -->
               <!-- Value: init categories_list with a long string -->
-              {% assign categories_list = "All Selected Publications,Simulation/Hardware Systems for Embodied
-              AI,Humanoids and Motion Intelligence,Manipulation and Navigation Intelligence,3D Vision and Embodied
-              Perception,Others" | split: "," %}
+              {% assign categories_list = "All Selected Publications,Simulation/Hardware Systems for Embodied AI,Humanoids and Motion Intelligence,Manipulation and Navigation Intelligence,3D Vision and Embodied Perception,Others" | split: "," %}
 
               <table style="
                     width: 100%;
@@ -273,8 +271,7 @@
                 margin-right: auto;
                 margin-left: auto;
               ">
-            {% for post in site.posts %} {% if post.sub_fields == category or post.sub_fields2 == category or "All
-            Selected Publications" == category%}
+            {% for post in site.posts %} {% if post.sub_fields == category or post.sub_fields2 == category or "All Selected Publications" == category%}
             <tr>
               <td style="
                     padding: 2.5%;
