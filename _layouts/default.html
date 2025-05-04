@@ -137,23 +137,32 @@
                   </font>
                 </li>
                 <li>
-                  [2025/02] We release our recent progresses on humanoids,
-                  including <a href="https://hugwbc.github.io/">HugWBC</a>,
+                  [2025/04] Check out <a href="https://arxiv.org/abs/2503.13424">Infinite Mobility</a> that
+                  generates interactive objects and <a href="https://aether-world.github.io/">Aether</a>, our
+                  embodied 4D world model.
+                </li>
+                <li>
+                  [2025/04] [RSS 2025] Check out our manipulation works <a
+                    href="https://yangsizhe.github.io/robosplat/">RoboSplat</a> and <a
+                    href="https://yuyinyang3y.github.io/PPI/">PPI</a>.
+                </li>
+                <li>
+                  [2025/04] [RSS 2025] Check out our humanoid works <a href="https://hugwbc.github.io/">HugWBC</a>,
                   <a href="https://taohuang13.github.io/humanoid-standingup.github.io/">HoST</a>,
                   <a href="https://why618188.github.io/beamdojo/">BeamDojo</a>, and <a
                     href="https://homietele.github.io">Homie</a>.
                 </li>
-                <li>
+                <!-- <li>
                   [2025/02] We find some interesting observations on Sim2Real
                   in manipulation, check out
                   <a href="https://xshenhan.github.io/Re3Sim/">Re3Sim</a>
                   and stay tuned.
-                </li>
+                </li> -->
                 <li>
                   [2025/02]
                   <a href="https://nimolty.github.io/Seer/">Seer</a>, a
                   scalable learner for robotic manipulation, is accepted at
-                  ICLR 2025 as a Oral Presentation.
+                  ICLR 2025 as an Oral Presentation.
                 </li>
                 <li>
                   [2024/11] We present
@@ -207,7 +216,9 @@
                 contribution.
               </p> -->
               <!-- Value: init categories_list with a long string -->
-              {% assign categories_list = "All Selected Publications,Simulation/Hardware Systems for Embodied AI,Humanoids and Motion Intelligence,Manipulation and Navigation Intelligence,3D Vision and Embodied Perception,Others" | split: "," %}
+              {% assign categories_list = "All Selected Publications,Simulation/Hardware Systems for Embodied
+              AI,Humanoids and Motion Intelligence,Manipulation and Navigation Intelligence,3D Vision and Embodied
+              Perception,Others" | split: "," %}
 
               <table style="
                     width: 100%;
@@ -262,7 +273,8 @@
                 margin-right: auto;
                 margin-left: auto;
               ">
-            {% for post in site.posts %} {% if post.sub_fields == category or post.sub_fields2 == category or "All Selected Publications" == category%}
+            {% for post in site.posts %} {% if post.sub_fields == category or post.sub_fields2 == category or "All
+            Selected Publications" == category%}
             <tr>
               <td style="
                     padding: 2.5%;
